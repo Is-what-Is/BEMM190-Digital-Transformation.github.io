@@ -1,7 +1,7 @@
 /* General Page Styling */
 body {
     font-family: "Arial", sans-serif;
-    background: #F8F9FA;
+    background: #f1f0ea;
     color: #333;
     margin: 0;
     padding: 40px;
@@ -24,14 +24,9 @@ header {
     width: 100%;
 }
 
-.author {
+.author, .student-id {
     font-weight: bold;
-    padding-left: 5px;
-}
-
-.student-id {
-    font-weight: bold;
-    padding-right: 5px;
+    padding: 0 5px;
 }
 
 /* Title Section */
@@ -62,9 +57,22 @@ h2 {
     font-size: 16px;
 }
 
-p {
+.intro {
     text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.week-section {
+    border-top: 2px solid black;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.week-section h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 /* Appendix */
